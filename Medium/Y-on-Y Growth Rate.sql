@@ -1,3 +1,4 @@
+
 -- Question:
 -- Given a user_transactions table containing transaction details
 -- for different products, calculate the year-on-year (YoY) growth
