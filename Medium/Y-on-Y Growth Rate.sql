@@ -2,10 +2,6 @@
 -- Given a user_transactions table containing transaction details
 -- for different products, calculate the year-on-year (YoY) growth
 -- rate of the total spend for each product.
---
--- Output should include:
--- year, product_id, current year's spend, previous year's spend
--- and YoY growth rate rounded to 2 decimal places.
 
 -- Approach:
 -- 1. Extract year from transaction_date using EXTRACT().
