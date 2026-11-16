@@ -3,7 +3,6 @@
 -- made a payment today.
 -- Output user_id and the updated status, sorted by user_id.
 
-
 -- Approach:
 -- 1. Use FULL OUTER JOIN because we need users from both tables.
 --    - advertiser only -> did not pay today -> CHURN
