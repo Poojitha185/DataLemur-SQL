@@ -37,7 +37,6 @@ consecutive_years AS (
         ) AS grp
     FROM turbo_years
 )
-
 SELECT distinct user_id
 FROM consecutive_years
 GROUP BY user_id, grp
